@@ -1,0 +1,106 @@
+@media screen and (max-width: 1224px) {
+  .container {
+    max-width: 900px;
+  }
+  .home_positions {
+    display: block;
+    text-align: center;
+  }
+  .position_cards {
+    justify-content: center;
+  }
+  .product h3 {
+    margin-left: 0;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    max-width: 700px;
+  }
+  .home_title {
+    font-size: 24px;
+  }
+  .slider_title {
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 500px;
+  }
+  .header_title {
+    font-size: 22px;
+  }
+  .home_title {
+    font-size: 24px;
+  }
+  .home_text {
+    font-size: 17px;
+  }
+  .position_sales {
+    padding-top: 30px;
+  }
+  .position_cards {
+    display: block;
+    max-width: 300px;
+    margin: 5px auto;
+  }
+  .slider_title {
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    max-width: 450px;
+  }
+  .header_title {
+    display: none;
+  }
+  .btn p {
+    display: none;
+  }
+  .btn {
+    width: 70px;
+    font-size: 28px;
+    border-radius: 10px;
+  }
+  .btn i {
+    display: block;
+  }
+  .home_title {
+    font-size: 24px;
+    padding: 0 20px;
+  }
+  .home_text {
+    padding: 0 20px;
+  }
+  .pos_card {
+    max-width: 225px;
+    margin: 10px auto;
+  }
+  .pos_card img {
+    width: 190px;
+  }
+  .slide {
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .position_sales {
+    max-width: 300px;
+    padding: 20px;
+  }
+  .slider_title {
+    font-size: 26px;
+  }
+  .dot {
+    width: 35px;
+    height: 35px;
+    margin: 0 10px;
+  }
+}
