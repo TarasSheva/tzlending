@@ -1,10 +1,10 @@
+/*! CSS Used from: https://tarassheva.github.io/tzlending/css/style.css */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-family: 'Verdana', sans-serif;
 }
-
 .header {
   width: 100%;
   height: 80px;
@@ -13,7 +13,6 @@
   position: fixed;
   z-index: 1;
 }
-
 .container {
   max-width: 1150px;
   margin: 0 auto;
@@ -51,8 +50,6 @@
 .btn i {
   display: none;
 }
-
-/*****************home***************/
 .home {
   padding-top: 80px;
 }
@@ -79,7 +76,6 @@
 .position_cards {
   display: flex;
 }
-
 .pos_card {
   min-width: 230px;
   border: 2px solid #aeaeae;
@@ -133,7 +129,6 @@
   text-align: center;
   font-size: 17px;
 }
-
 .sales_text {
   margin-left: 20px;
   font-weight: 700;
@@ -141,14 +136,11 @@
   font-size: 17px;
   line-height: 1.7;
 }
-
 .sales_text_button {
   font-weight: 700;
   text-align: end;
   font-size: 17px;
 }
-
-/*******************slider****************/
 .slider {
   background-color: lightseagreen;
 }
@@ -165,11 +157,6 @@
   text-align: center;
   min-height: 170px;
 }
-
-.num_slide {
-  position: absolute;
-  font-size: 30px;
-}
 .slide img {
   width: 100%;
 }
@@ -181,23 +168,6 @@
   animation-name: fade;
   animation-duration: 1.5s;
 }
-@-webkit-keyframes fade {
-  from {
-    opacity: 0.4;
-  }
-  to {
-    opacity: 1;
-  }
-}
-@keyframes fade {
-  from {
-    opacity: 0.4;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
 .slider_btn {
   display: flex;
   align-items: center;
@@ -228,8 +198,6 @@
 .dot:hover {
   background-color: #522be2;
 }
-
-/***************footer************/
 .footer {
   background-color: #aeaeae;
 }
@@ -239,4 +207,184 @@
   font-weight: bold;
   min-height: 70px;
   padding: 20px;
+}
+/*! CSS Used from: https://pro.fontawesome.com/releases/v5.10.0/css/all.css */
+.fas {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+}
+.fa-shopping-cart:before {
+  content: '\f07a';
+}
+.fas {
+  font-family: 'Font Awesome 5 Pro';
+  font-weight: 900;
+}
+/*! CSS Used from: https://tarassheva.github.io/tzlending/css/media.css */
+@media screen and (max-width: 1224px) {
+  .container {
+    max-width: 900px;
+  }
+  .home_positions {
+    display: block;
+    text-align: center;
+  }
+  .position_cards {
+    justify-content: center;
+  }
+  .product h3 {
+    margin-left: 0;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .container {
+    max-width: 700px;
+  }
+  .home_title {
+    font-size: 24px;
+  }
+  .slider_title {
+    font-size: 32px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 500px;
+  }
+  .header_title {
+    font-size: 22px;
+  }
+  .home_title {
+    font-size: 24px;
+  }
+  .home_text {
+    font-size: 17px;
+  }
+  .position_sales {
+    padding-top: 30px;
+  }
+  .position_cards {
+    display: block;
+    max-width: 300px;
+    margin: 5px auto;
+  }
+  .slider_title {
+    font-size: 32px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .container {
+    max-width: 450px;
+  }
+  .header_title {
+    display: none;
+  }
+  .btn p {
+    display: none;
+  }
+  .btn {
+    width: 70px;
+    font-size: 28px;
+    border-radius: 10px;
+  }
+  .btn i {
+    display: block;
+  }
+  .home_title {
+    font-size: 24px;
+    padding: 0 20px;
+  }
+  .home_text {
+    padding: 0 20px;
+  }
+  .pos_card {
+    max-width: 225px;
+    margin: 10px auto;
+  }
+  .pos_card img {
+    width: 190px;
+  }
+  .slide {
+    padding: 10px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .position_sales {
+    max-width: 300px;
+    padding: 20px;
+  }
+  .slider_title {
+    font-size: 26px;
+  }
+  .dot {
+    width: 35px;
+    height: 35px;
+    margin: 0 10px;
+  }
+}
+/*! CSS Used keyframes */
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/*! CSS Used fontfaces */
+@font-face {
+  font-family: 'Font Awesome 5 Pro';
+  font-style: normal;
+  font-weight: 300;
+  font-display: auto;
+  src: url(https://pro.fontawesome.com/releases/v5.10.0/webfonts/fa-light-300.eot);
+  src: url(https://pro.fontawesome.com/releases/v5.10.0/webfonts/fa-light-300.eot#iefix)
+      format('embedded-opentype'),
+    url(https://pro.fontawesome.com/releases/v5.10.0/webfonts/fa-light-300.woff2) format('woff2'),
+    url(https://pro.fontawesome.com/releases/v5.10.0/webfonts/fa-light-300.woff) format('woff'),
+    url(https://pro.fontawesome.com/releases/v5.10.0/webfonts/fa-light-300.ttf) format('truetype'),
+    url(https://pro.fontawesome.com/releases/v5.10.0/webfonts/fa-light-300.svg#fontawesome)
+      format('svg');
+}
+@font-face {
+  font-family: 'Font Awesome 5 Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-display: auto;
+  src: url(https://pro.fontawesome.com/releases/v5.10.0/webfonts/fa-regular-400.eot);
+  src: url(https://pro.fontawesome.com/releases/v5.10.0/webfonts/fa-regular-400.eot#iefix)
+      format('embedded-opentype'),
+    url(https://pro.fontawesome.com/releases/v5.10.0/webfonts/fa-regular-400.woff2) format('woff2'),
+    url(https://pro.fontawesome.com/releases/v5.10.0/webfonts/fa-regular-400.woff) format('woff'),
+    url(https://pro.fontawesome.com/releases/v5.10.0/webfonts/fa-regular-400.ttf) format('truetype'),
+    url(https://pro.fontawesome.com/releases/v5.10.0/webfonts/fa-regular-400.svg#fontawesome)
+      format('svg');
+}
+@font-face {
+  font-family: 'Font Awesome 5 Pro';
+  font-style: normal;
+  font-weight: 900;
+  font-display: auto;
+  src: url(https://pro.fontawesome.com/releases/v5.10.0/webfonts/fa-solid-900.eot);
+  src: url(https://pro.fontawesome.com/releases/v5.10.0/webfonts/fa-solid-900.eot#iefix)
+      format('embedded-opentype'),
+    url(https://pro.fontawesome.com/releases/v5.10.0/webfonts/fa-solid-900.woff2) format('woff2'),
+    url(https://pro.fontawesome.com/releases/v5.10.0/webfonts/fa-solid-900.woff) format('woff'),
+    url(https://pro.fontawesome.com/releases/v5.10.0/webfonts/fa-solid-900.ttf) format('truetype'),
+    url(https://pro.fontawesome.com/releases/v5.10.0/webfonts/fa-solid-900.svg#fontawesome)
+      format('svg');
 }
